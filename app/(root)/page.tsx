@@ -26,11 +26,18 @@ export default async function Home({ searchParams }: SearchParamProps) {
                     <div className="flex flex-col justify-center gap-8">
                         <h1 className="h1-bold">A World Build on Trust!</h1>
                         <p className="p-regular-20 md:p-regular-24">Welcome to We2Gather, where every event becomes an unforgettable experience. We are a premier event planning and management company dedicated to turning your special occasions into cherished memories.</p>
+                        <div>
                         <Button size="lg" asChild className="button w-full sm:w-fit">
                             <Link href="#events">
                                 Explore Now
                             </Link>
                         </Button>
+                        <Button size="lg" asChild className="button w-full sm:w-fit mx-10">
+                            <Link href="#events">
+                                Brochure
+                            </Link>
+                        </Button>
+                        </div>
                     </div>
 
                     <Image
