@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Eventify",
+  title: "We2gather Events",
   description: "Event management application for WeTogether",
   icons:{
     icon: '/assets/images/logo.png',

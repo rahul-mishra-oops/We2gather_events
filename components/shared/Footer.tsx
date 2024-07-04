@@ -15,6 +15,7 @@ const Footer = () => {
                 </Link>
 
                 <p className="text-white">2024 We2gather. All Rights reserved.</p>
+                <p className="text-white">Made with ❤️ By Rahul Jyoti Mishra</p>
             </div>
         </footer>
     )
