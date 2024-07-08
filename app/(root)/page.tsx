@@ -27,16 +27,21 @@ export default async function Home({ searchParams }: SearchParamProps) {
                         <h1 className="h1-bold">A World Build on Trust!</h1>
                         <p className="p-regular-20 md:p-regular-24">Welcome to We2Gather, where every event becomes an unforgettable experience. We are a premier event planning and management company dedicated to turning your special occasions into cherished memories.</p>
                         <div className="flex flex-col gap-4 sm:flex-row sm:gap-4">
-                        <Button size="lg" asChild className="button w-full sm:w-fit">
-                            <Link href="#events">
-                                Explore Now
-                            </Link>
-                        </Button>
-                        <Button size="lg" asChild className="button w-full sm:w-fit bg-blend-color">
-                            <Link href="https://drive.google.com/file/d/1LhBIR0OTBUV_sinQX2ql6E-ScIuqKskp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                                Brochure
-                            </Link>
-                        </Button>
+                            <Button size="lg" asChild className="button w-full sm:w-fit">
+                                <Link href="https://forms.gle/7Nt6mXMo7DUsojq67" target="_blank" rel="noopener noreferrer">
+                                    Register Now
+                                </Link>
+                            </Button>
+                            <Button size="lg" asChild className="button w-full sm:w-fit bg-blend-color">
+                                <Link href="https://drive.google.com/file/d/1LhBIR0OTBUV_sinQX2ql6E-ScIuqKskp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    Brochure
+                                </Link>
+                            </Button>
+                            <Button size="lg" asChild className="button w-full sm:w-fit bg-blend-color">
+                                <Link href="https://drive.google.com/file/d/1z9Xj84L0C-tJw13cYOSxHQv6LY0ZfdO-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    Guidelines
+                                </Link>
+                            </Button>
                         </div>
                     </div>
 
